@@ -1,0 +1,405 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 748px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1315px;
+  height: 84px;
+  margin: 39px 0 0 61px;
+  background: #ffffff;
+  z-index: 5;
+  border-radius: 56px;
+  box-shadow: 0 0 149.9px 0 #115bae;
+}
+.products {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 23px;
+  left: 806px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 4;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 23px;
+  left: 60px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 1;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 23px;
+  left: 1007px;
+  color: #115bae;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 2;
+}
+.login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 23px;
+  left: 1185px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 5;
+}
+.flex-row {
+  position: relative;
+  width: 1381px;
+  height: 999.871px;
+  margin: 0 0 0 -150px;
+  z-index: 27;
+}
+.fast-food-bro {
+  position: absolute;
+  width: 301px;
+  height: 277px;
+  top: 0;
+  left: 322px;
+  background: url(./assets/fast\ food-bro.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.order-summary-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 175px;
+  left: 702px;
+  color: #115bae;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -3.04px;
+  z-index: 6;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 1025px;
+  height: 370px;
+  top: 226px;
+  left: 356px;
+  background: rgba(217, 217, 217, 0);
+  border: 2px solid #000000;
+  z-index: 10;
+  border-radius: 41px;
+}
+.flex-row-eb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 829px;
+  height: 25px;
+  margin: 61px 0 0 96px;
+  z-index: 17;
+}
+.product {
+  flex-shrink: 0;
+  position: relative;
+  height: 25px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 13;
+}
+.quantity {
+  flex-shrink: 0;
+  position: relative;
+  height: 25px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 16;
+}
+.price {
+  flex-shrink: 0;
+  position: relative;
+  height: 25px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 17;
+}
+.flex-row-ac {
+  position: relative;
+  width: 738px;
+  height: 28px;
+  margin: 56px 0 0 96px;
+  z-index: 20;
+}
+.veg-rolls {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 0;
+  left: 796px;
+  color: #000000;
+  font-family: Louis George Cafe, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.988px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  z-index: 20;
+}
+.veg-rolls-3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 5px;
+  left: 0;
+  color: #000000;
+  font-family: Louis George Cafe, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.988px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  z-index: 18;
+}
+.veg-rolls-4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 23px;
+  top: 5px;
+  left: 422px;
+  color: #000000;
+  font-family: Louis George Cafe, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.988px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  z-index: 19;
+}
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 399px;
+  height: 93px;
+  margin: 77px 0 0 314px;
+  padding: 14px 85px 14px 85px;
+  cursor: pointer;
+  background: #115bae;
+  border: none;
+  z-index: 11;
+  overflow: hidden;
+  border-radius: 13.5px;
+}
+
+.pay-now {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color: #ffffff;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 37px;
+  font-weight: 600;
+  padding: 9pc;
+  text-decoration: none;
+  line-height: 0;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: 0.74px;
+  z-index: 12;
+}
+.pay-now:hover{
+  background-color: #000000;
+}
+.ellipse {
+  position: absolute;
+  width: 680.164px;
+  height: 676.871px;
+  top: 323px;
+  left: 0;
+  background: url(./assets/images/c336126b-ec77-4d16-a177-0864d2bc3c9e.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(82.05px);
+  z-index: 3;
+}
+.total-purchased-products {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 24px;
+  top: 789px;
+  left: 372px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 15;
+}
+.pay-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: absolute;
+  width: 399px;
+  height: 79px;
+  top: 590px;
+  left: 670px;
+  padding: 14px 85px 14px 85px;
+  background: #115bae;
+  z-index: 7;
+  overflow: hidden;
+  border-radius: 13.5px;
+}
+.pay-now-c {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 51px;
+  color: #ffffff;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: 0.74px;
+  z-index: 8;
+}
+.create-account {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 57px;
+  color: #ffffff;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 52.75px;
+  text-align: center;
+  text-transform: capitalize;
+  white-space: nowrap;
+  width: 360px;
+  letter-spacing: -0.5px;
+  z-index: 15;
+}

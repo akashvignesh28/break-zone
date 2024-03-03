@@ -1,0 +1,333 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1315px;
+  height: 84px;
+  margin: 38px 0 0 64px;
+  background: #ffffff;
+  z-index: 6;
+  border-radius: 56px;
+  box-shadow: 0 0 149.9px 0 #115bae;
+}
+.regroup {
+  position: absolute;
+  width: 408px;
+  height: 84px;
+  top: 0;
+  left: 804px;
+  z-index: 6;
+}
+.products {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 24px;
+  left: 0;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 5;
+}
+.about {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 24px;
+  left: 181px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 3;
+}
+.login-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 24px;
+  left: 325px;
+  color: #115bae;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 6;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 35px;
+  top: 24px;
+  left: 57px;
+  color: #000000;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34.75px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 2;
+}
+.flex-row-ccf {
+  position: relative;
+  width: 1838.426px;
+  height: 945.87px;
+  margin: 79px 0 0 -155px;
+  z-index: 7;
+}
+.rectangle-2 {
+  position: absolute;
+  width: 791px;
+  height: 617px;
+  top: 0;
+  left: 522px;
+  font-size: 0px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  z-index: 7;
+  border-radius: 27px;
+}
+.login-3 {
+  display: block;
+  position: relative;
+  height: 141px;
+  margin: 24px 0 0 321px;
+  color: #115bae;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 100.08px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -5.76px;
+  z-index: 8;
+}
+.user-name {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 2px 0 0 52px;
+  color: #777777;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 9;
+}
+.line {
+  position: relative;
+  width: 693px;
+  height: 1px;
+  margin: 54px 0 0 50px;
+  background: url(./assets/Line\ 20.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.password {
+  display: block;
+  position: relative;
+  height: 25px;
+  margin: 49px 0 0 50px;
+  color: #777777;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 11;
+}
+.line-4 {
+  position: relative;
+  width: 693px;
+  height: 1px;
+  margin: 50px 0 0 52px;
+  background: url(./assets/Line\ 20.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 220px;
+  height: 47px;
+  margin: 59px 0 0 273px;
+  padding: 12px 79px 12px 79px;
+  cursor: pointer;
+  background: #115bae;
+  border: none;
+  z-index: 12;
+  overflow: hidden;
+  border-radius: 27px;
+}
+.login-5 {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 35px;
+  /* background-color: black; */
+  padding: 85px;
+  color: #ffffff;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 0.75px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+  z-index: 13;
+}
+.or {
+  display: block;
+  position: relative;
+  height: 24px;
+  margin: 17px 0 0 359px;
+  color: #777777;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  z-index: 10;
+}
+.create-account {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 35px;
+  top: 527px;
+  left: 294px;
+  color: #3b3b3b;
+  font-family: Bornia, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34.75px;
+  text-align: left;
+  text-transform: capitalize;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+  z-index: 14;
+}
+.line-6 {
+  position: absolute;
+  width: 173px;
+  height: 1px;
+  top: 551.5px;
+  left: 294px;
+  z-index: 15;
+}
+.ellipse {
+  position: absolute;
+  width: 587.426px;
+  height: 584.007px;
+  top: 23px;
+  left: 1251px;
+  background: url(./assets/Ellipse\ 1.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(82.05px);
+}
+.ellipse-7 {
+  position: absolute;
+  width: 680.164px;
+  height: 676.871px;
+  top: 269px;
+  left: 0;
+  background: url(./assets/Ellipse\ 2.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(82.05px);
+  z-index: 4;
+}
+input.username {
+  position: relative;
+  top: -37px;
+  left: 19px;
+  height: 37px;
+  border: 1px solid white;
+  font-size: 29px;
+  width: 674px;
+}
+
+input.password-1 {
+  position: relative;
+  top: -37px;
+  left: 12px;
+  height: 37px;
+  border: 1px solid white;
+  font-size: 29px;
+  width: 681px;
+}
