@@ -4,6 +4,9 @@
     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
     "Source Han Sans CN", sans-serif;
 }
+.wrapper{
+  margin: auto;
+}
 
 .main-container {
   overflow: hidden;
@@ -225,7 +228,7 @@ button {
   margin: 56px 0 0 96px;
   z-index: 20;
 }
-.veg-rolls {
+.price-1{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -244,7 +247,7 @@ button {
   letter-spacing: 1px;
   z-index: 20;
 }
-.veg-rolls-3 {
+.product-1{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -263,7 +266,7 @@ button {
   letter-spacing: 1px;
   z-index: 18;
 }
-.veg-rolls-4 {
+.quantity-1{
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
